@@ -8,21 +8,14 @@ export default function AdminPage() {
     import('decap-cms-app').then((module) => {
       const CMS = module.default || module
 
-      // Determine which site domain to use based on current hostname
-      const isNetlify = typeof window !== 'undefined' && window.location.hostname.includes('netlify.app')
-      const siteDomain = isNetlify
-        ? 'profound-meringue-6e61cd.netlify.app'
-        : 'profound-meringue-6e61cd.netlify.app' // Both use Netlify OAuth for now
-
       CMS.init({
         config: {
           backend: {
             name: 'github',
             repo: 'gokerlek/decap-test',
             branch: 'claude/setup-nextjs-agency-boilerplate-011CUtJ9HCRqbFrXyMaVNBqZ',
-            base_url: 'https://api.netlify.com',
-            auth_endpoint: 'auth',
-            site_domain: siteDomain
+            base_url: typeof window !== 'undefined' ? window.location.origin : '',
+            auth_endpoint: 'api/auth'
           },
           load_config_file: false,
           media_folder: 'site/public/media',
