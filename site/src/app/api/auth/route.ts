@@ -7,11 +7,22 @@ export async function GET(request: NextRequest) {
   const searchParams = request.nextUrl.searchParams
   const code = searchParams.get('code')
 
+  // Step 1: Redirect to GitHub for authorization
   if (!code) {
-    return NextResponse.json({ error: 'No code provided' }, { status: 400 })
+    if (!CLIENT_ID) {
+      return NextResponse.json({ error: 'GitHub OAuth not configured' }, { status: 500 })
+    }
+
+    const githubAuthUrl = new URL('https://github.com/login/oauth/authorize')
+    githubAuthUrl.searchParams.set('client_id', CLIENT_ID)
+    githubAuthUrl.searchParams.set('scope', 'repo,user')
+    githubAuthUrl.searchParams.set('redirect_uri', `${request.nextUrl.origin}/api/auth`)
+
+    return NextResponse.redirect(githubAuthUrl.toString())
   }
 
-  if (!CLIENT_ID || !CLIENT_SECRET) {
+  // Step 2: Handle callback from GitHub
+  if (!CLIENT_SECRET) {
     return NextResponse.json({ error: 'GitHub OAuth not configured' }, { status: 500 })
   }
 
