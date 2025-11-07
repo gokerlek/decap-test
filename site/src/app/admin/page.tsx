@@ -5,7 +5,8 @@ import { useEffect } from 'react'
 export default function AdminPage() {
   useEffect(() => {
     // Dynamically import CMS to avoid SSR issues
-    import('decap-cms-app').then((CMS) => {
+    import('decap-cms-app').then((module) => {
+      const CMS = module.default || module
       CMS.init({
         config: {
           backend: {
