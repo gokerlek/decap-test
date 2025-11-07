@@ -43,8 +43,16 @@ export async function GET(request: NextRequest) {
 
     const data = await tokenResponse.json()
 
+    console.log('GitHub OAuth Response:', data)
+
     if (data.error) {
+      console.error('GitHub OAuth Error:', data.error, data.error_description)
       return NextResponse.json({ error: data.error_description || data.error }, { status: 400 })
+    }
+
+    if (!data.access_token) {
+      console.error('No access token in response:', data)
+      return NextResponse.json({ error: 'No access token received' }, { status: 400 })
     }
 
     // Return token to CMS via postMessage
@@ -57,28 +65,37 @@ export async function GET(request: NextRequest) {
       </head>
       <body>
         <script>
+          console.log('OAuth callback received');
+          console.log('Access token:', ${JSON.stringify(data.access_token)});
+
           (function() {
             const token = ${JSON.stringify(data.access_token)};
             const provider = "github";
 
+            console.log('Sending postMessage with token:', token);
+
             // Post message to opener window (CMS)
             if (window.opener) {
-              window.opener.postMessage(
-                "authorization:github:success:" + JSON.stringify({
-                  token: token,
-                  provider: provider
-                }),
-                window.location.origin
-              );
+              const message = "authorization:github:success:" + JSON.stringify({
+                token: token,
+                provider: provider
+              });
+              console.log('PostMessage:', message);
+              window.opener.postMessage(message, window.location.origin);
+              console.log('PostMessage sent successfully');
+            } else {
+              console.error('No window.opener found!');
             }
 
             // Close popup after a short delay
             setTimeout(function() {
+              console.log('Closing window...');
               window.close();
-            }, 100);
+            }, 1000);
           })();
         </script>
-        <p>Authentication successful! This window should close automatically...</p>
+        <p>Authentication successful! Check console for debug info...</p>
+        <p>This window should close automatically in 1 second.</p>
       </body>
     </html>
     `
