@@ -1,7 +1,7 @@
 ---
 title: test
 slug: test-slug
-thumb: /media/pawel-czerwinski-dxzdthscqfi-unsplash.jpg
+thumb: /media/pexels-apasaric-325185.jpg
 video: /media/pexels-apasaric-325185.jpg
 tags: []
 ---
