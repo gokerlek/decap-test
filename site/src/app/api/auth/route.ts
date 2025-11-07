@@ -90,14 +90,14 @@ export async function GET(request: NextRequest) {
                 window.close();
               }, 100);
             } else {
-              // Not a popup - store token and redirect back to admin
-              console.log('Not a popup, storing token in localStorage and redirecting...');
-              localStorage.setItem('netlifySiteURL', window.location.origin);
-              localStorage.setItem('netlifyUser', JSON.stringify({
-                token: token,
+              // Not a popup - redirect back to admin with token in URL hash
+              console.log('Not a popup, redirecting with token in URL hash...');
+              const authData = {
+                access_token: token,
+                token_type: 'bearer',
                 provider: provider
-              }));
-              window.location.href = '/admin';
+              };
+              window.location.href = '/admin#' + btoa(JSON.stringify(authData));
             }
           })();
         </script>

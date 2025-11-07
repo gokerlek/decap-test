@@ -4,6 +4,34 @@ import { useEffect } from 'react'
 
 export default function AdminPage() {
   useEffect(() => {
+    // Check if we have a token from OAuth redirect in URL hash
+    const hash = window.location.hash.slice(1)
+    let authToken = null
+
+    if (hash && !hash.startsWith('/')) {
+      try {
+        const authData = JSON.parse(atob(hash))
+        authToken = authData.access_token
+        console.log('Found auth token in URL hash:', authToken)
+
+        // Store in localStorage for Decap CMS
+        const userData = {
+          backendName: 'github',
+          token: authToken,
+          login: 'github-user'
+        }
+        localStorage.setItem('netlify-cms-user', JSON.stringify(userData))
+        console.log('Stored auth in localStorage')
+
+        // Clear hash and reload to let CMS detect the token
+        window.location.hash = ''
+        window.location.reload()
+        return
+      } catch (e) {
+        console.error('Failed to parse auth hash:', e)
+      }
+    }
+
     // Dynamically import CMS to avoid SSR issues
     import('decap-cms-app').then((module) => {
       const CMS = module.default || module
