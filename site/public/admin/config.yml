@@ -1,7 +1,7 @@
 backend:
   name: github
   repo: gokerlek/decap-test
-  branch: main
+  branch: claude/setup-nextjs-agency-boilerplate-011CUtJ9HCRqbFrXyMaVNBqZ
 
 media_folder: "content/media"
 public_folder: "/media"
