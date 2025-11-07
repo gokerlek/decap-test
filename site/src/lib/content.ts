@@ -56,7 +56,7 @@ function parseContent<T>(folder: string, fileName: string): T & { slug: string }
     ...data,
     slug,
     body: content
-  } as T & { slug: string }
+  } as any as T & { slug: string }
 }
 
 export function getProjects(): Project[] {

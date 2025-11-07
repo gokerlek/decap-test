@@ -15,7 +15,7 @@ export default function ContactPage() {
           dangerouslySetInnerHTML={{ __html: contact.body.replace(/\n/g, '<br />') }}
         />
       )}
-      <form className="grid gap-3 mt-4" onSubmit={(e)=>e.preventDefault()}>
+      <form className="grid gap-3 mt-4">
         <input required placeholder="Your name" className="h-11 px-3 rounded-lg border" />
         <input required type="email" placeholder="Email" className="h-11 px-3 rounded-lg border" />
         <textarea required placeholder="Project details" rows={6} className="p-3 rounded-lg border" />

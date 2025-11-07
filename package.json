@@ -6,7 +6,6 @@
     "dev": "cd site && pnpm dev",
     "prebuild": "node scripts/img-build.mjs || true",
     "build": "cd site && pnpm build",
-    "export": "cd site && pnpm export",
     "preview": "cd site && pnpm preview"
   },
   "dependencies": {

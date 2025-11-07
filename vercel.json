@@ -1,5 +1,5 @@
 {
-  "buildCommand": "pnpm build && pnpm export",
+  "buildCommand": "pnpm build",
   "outputDirectory": "site/out",
   "framework": "nextjs",
   "cleanUrls": true
