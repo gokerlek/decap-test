@@ -1,13 +1,24 @@
+import { getAboutPage } from '@/lib/content'
+
 export default function AboutPage() {
+  const about = getAboutPage()
+
+  if (!about.title && !about.body) {
+    return (
+      <section className="grid gap-6 max-w-prose">
+        <h1>About</h1>
+        <p className="text-black/60">No content yet. Add some via <a href="/admin" className="underline">CMS</a> (About Page).</p>
+      </section>
+    )
+  }
+
   return (
     <section className="grid gap-6 max-w-prose">
-      <h1>About</h1>
-      <p>We're a small, senior team crafting motion‑driven experiences. This boilerplate ships with static export, CMS integration, and fast media delivery.</p>
-      <ul className="list-disc pl-5 text-sm text-black/70">
-        <li>Static export via Next.js</li>
-        <li>Decap CMS (Git‑based, zero server)</li>
-        <li>Framer Motion page transitions</li>
-      </ul>
+      <h1>{about.title || 'About'}</h1>
+      <div
+        className="prose prose-sm max-w-none"
+        dangerouslySetInnerHTML={{ __html: about.body.replace(/\n/g, '<br />') }}
+      />
     </section>
   )
 }

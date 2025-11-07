@@ -8,6 +8,7 @@ export interface Project {
   slug: string
   title: string
   thumb?: string
+  video?: string
   tags: string[]
   body: string
 }
@@ -23,6 +24,12 @@ export interface Person {
 export interface Page {
   slug: string
   title: string
+  body: string
+}
+
+export interface SitePage {
+  title: string
+  subtitle?: string
   body: string
 }
 
@@ -83,4 +90,29 @@ export function getPerson(slug: string): Person | undefined {
   } catch {
     return undefined
   }
+}
+
+function parseSitePage(fileName: string): SitePage {
+  const fullPath = path.join(contentDirectory, 'site', fileName)
+
+  if (!fs.existsSync(fullPath)) {
+    return { title: '', body: '' }
+  }
+
+  const fileContents = fs.readFileSync(fullPath, 'utf8')
+  const { data, content } = matter(fileContents)
+
+  return {
+    title: data.title || '',
+    subtitle: data.subtitle,
+    body: content
+  }
+}
+
+export function getAboutPage(): SitePage {
+  return parseSitePage('about.md')
+}
+
+export function getContactPage(): SitePage {
+  return parseSitePage('contact.md')
 }

@@ -1,9 +1,21 @@
+import { getContactPage } from '@/lib/content'
+
 export default function ContactPage() {
+  const contact = getContactPage()
+
   return (
     <section className="grid gap-6 max-w-prose">
-      <h1>Contact</h1>
-      <p>Tell us about your project. We'll get back within 24 hours.</p>
-      <form className="grid gap-3" onSubmit={(e)=>e.preventDefault()}>
+      <h1>{contact.title || 'Contact'}</h1>
+      {contact.subtitle && (
+        <p className="text-lg text-black/80">{contact.subtitle}</p>
+      )}
+      {contact.body && (
+        <div
+          className="prose prose-sm max-w-none"
+          dangerouslySetInnerHTML={{ __html: contact.body.replace(/\n/g, '<br />') }}
+        />
+      )}
+      <form className="grid gap-3 mt-4" onSubmit={(e)=>e.preventDefault()}>
         <input required placeholder="Your name" className="h-11 px-3 rounded-lg border" />
         <input required type="email" placeholder="Email" className="h-11 px-3 rounded-lg border" />
         <textarea required placeholder="Project details" rows={6} className="p-3 rounded-lg border" />

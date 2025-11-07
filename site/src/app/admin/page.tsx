@@ -41,7 +41,8 @@ export default function AdminPage() {
               fields: [
                 { name: 'title', label: 'Title', widget: 'string' },
                 { name: 'slug', label: 'Slug', widget: 'string' },
-                { name: 'thumb', label: 'Thumbnail', widget: 'image' },
+                { name: 'thumb', label: 'Thumbnail (Image)', widget: 'image', required: false },
+                { name: 'video', label: 'Video (MP4)', widget: 'file', required: false },
                 { name: 'tags', label: 'Tags', widget: 'list', default: [] },
                 { name: 'body', label: 'Body', widget: 'markdown' }
               ]
@@ -58,6 +59,37 @@ export default function AdminPage() {
                 { name: 'role', label: 'Role', widget: 'string' },
                 { name: 'avatar', label: 'Avatar', widget: 'image', required: false },
                 { name: 'bio', label: 'Bio', widget: 'markdown', required: false }
+              ]
+            },
+            {
+              name: 'about',
+              label: 'About Page',
+              files: [
+                {
+                  name: 'about',
+                  label: 'About',
+                  file: 'content/site/about.md',
+                  fields: [
+                    { name: 'title', label: 'Title', widget: 'string' },
+                    { name: 'body', label: 'Body', widget: 'markdown' }
+                  ]
+                }
+              ]
+            },
+            {
+              name: 'contact',
+              label: 'Contact Page',
+              files: [
+                {
+                  name: 'contact',
+                  label: 'Contact',
+                  file: 'content/site/contact.md',
+                  fields: [
+                    { name: 'title', label: 'Title', widget: 'string' },
+                    { name: 'subtitle', label: 'Subtitle', widget: 'text', required: false },
+                    { name: 'body', label: 'Body', widget: 'markdown' }
+                  ]
+                }
               ]
             }
           ]
