@@ -58,13 +58,27 @@ export async function GET(request: NextRequest) {
       <body>
         <script>
           (function() {
-            window.opener.postMessage(
-              'authorization:github:success:${JSON.stringify(data)}',
-              window.location.origin
-            );
-            window.close();
+            const token = ${JSON.stringify(data.access_token)};
+            const provider = "github";
+
+            // Post message to opener window (CMS)
+            if (window.opener) {
+              window.opener.postMessage(
+                "authorization:github:success:" + JSON.stringify({
+                  token: token,
+                  provider: provider
+                }),
+                window.location.origin
+              );
+            }
+
+            // Close popup after a short delay
+            setTimeout(function() {
+              window.close();
+            }, 100);
           })();
         </script>
+        <p>Authentication successful! This window should close automatically...</p>
       </body>
     </html>
     `
