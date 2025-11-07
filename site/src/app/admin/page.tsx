@@ -12,7 +12,9 @@ export default function AdminPage() {
           backend: {
             name: 'github',
             repo: 'gokerlek/decap-test',
-            branch: 'claude/setup-nextjs-agency-boilerplate-011CUtJ9HCRqbFrXyMaVNBqZ'
+            branch: 'claude/setup-nextjs-agency-boilerplate-011CUtJ9HCRqbFrXyMaVNBqZ',
+            base_url: 'https://api.netlify.com',
+            auth_endpoint: 'auth'
           },
           load_config_file: false,
           media_folder: 'site/public/media',
