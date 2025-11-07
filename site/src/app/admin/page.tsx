@@ -10,11 +10,7 @@ export default function AdminPage() {
       CMS.init({
         config: {
           backend: {
-            name: 'github',
-            repo: 'gokerlek/decap-test',
-            branch: 'claude/setup-nextjs-agency-boilerplate-011CUtJ9HCRqbFrXyMaVNBqZ',
-            base_url: 'https://api.netlify.com',
-            auth_endpoint: 'auth'
+            name: 'test-repo',
           },
           load_config_file: false,
           media_folder: 'site/public/media',
