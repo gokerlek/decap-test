@@ -1,7 +1,5 @@
 {
   "buildCommand": "cd site && pnpm install && pnpm build",
-  "outputDirectory": "site/out",
   "installCommand": "pnpm install",
-  "framework": null,
-  "cleanUrls": true
+  "framework": "nextjs"
 }
