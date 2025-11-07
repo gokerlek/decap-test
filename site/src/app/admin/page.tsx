@@ -1,6 +1,7 @@
 'use client'
 
 import { useEffect } from 'react'
+import 'decap-cms-app/dist/cms.css'
 
 export default function AdminPage() {
   useEffect(() => {
@@ -65,5 +66,5 @@ export default function AdminPage() {
     })
   }, [])
 
-  return null
+  return <div id="nc-root" />
 }
