@@ -7,6 +7,13 @@ export default function AdminPage() {
     // Dynamically import CMS to avoid SSR issues
     import('decap-cms-app').then((module) => {
       const CMS = module.default || module
+
+      // Determine which site domain to use based on current hostname
+      const isNetlify = typeof window !== 'undefined' && window.location.hostname.includes('netlify.app')
+      const siteDomain = isNetlify
+        ? 'profound-meringue-6e61cd.netlify.app'
+        : 'profound-meringue-6e61cd.netlify.app' // Both use Netlify OAuth for now
+
       CMS.init({
         config: {
           backend: {
@@ -15,7 +22,7 @@ export default function AdminPage() {
             branch: 'claude/setup-nextjs-agency-boilerplate-011CUtJ9HCRqbFrXyMaVNBqZ',
             base_url: 'https://api.netlify.com',
             auth_endpoint: 'auth',
-            site_domain: 'profound-meringue-6e61cd.netlify.app'
+            site_domain: siteDomain
           },
           load_config_file: false,
           media_folder: 'site/public/media',
