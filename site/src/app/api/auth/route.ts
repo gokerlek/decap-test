@@ -74,28 +74,34 @@ export async function GET(request: NextRequest) {
 
             console.log('Sending postMessage with token:', token);
 
-            // Post message to opener window (CMS)
+            // Post message to opener window (CMS) if popup
             if (window.opener) {
               const message = "authorization:github:success:" + JSON.stringify({
                 token: token,
                 provider: provider
               });
-              console.log('PostMessage:', message);
+              console.log('PostMessage to opener:', message);
               window.opener.postMessage(message, window.location.origin);
               console.log('PostMessage sent successfully');
-            } else {
-              console.error('No window.opener found!');
-            }
 
-            // Close popup after a short delay
-            setTimeout(function() {
-              console.log('Closing window...');
-              window.close();
-            }, 1000);
+              // Close popup after a short delay
+              setTimeout(function() {
+                console.log('Closing popup window...');
+                window.close();
+              }, 100);
+            } else {
+              // Not a popup - store token and redirect back to admin
+              console.log('Not a popup, storing token in localStorage and redirecting...');
+              localStorage.setItem('netlifySiteURL', window.location.origin);
+              localStorage.setItem('netlifyUser', JSON.stringify({
+                token: token,
+                provider: provider
+              }));
+              window.location.href = '/admin';
+            }
           })();
         </script>
-        <p>Authentication successful! Check console for debug info...</p>
-        <p>This window should close automatically in 1 second.</p>
+        <p>Authentication successful! Redirecting...</p>
       </body>
     </html>
     `
