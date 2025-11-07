@@ -49,11 +49,12 @@ function parseContent<T>(folder: string, fileName: string): T & { slug: string }
   const fileContents = fs.readFileSync(fullPath, 'utf8')
   const { data, content } = matter(fileContents)
 
-  const slug = fileName.replace(/\.md$/, '')
+  // Use slug from frontmatter if available, otherwise use filename
+  const slug = data.slug || fileName.replace(/\.md$/, '')
 
   return {
-    slug,
     ...data,
+    slug,
     body: content
   } as T & { slug: string }
 }
@@ -77,11 +78,9 @@ export function getPages(): Page[] {
 }
 
 export function getProject(slug: string): Project | undefined {
-  try {
-    return parseContent<Omit<Project, 'slug'>>('projects', `${slug}.md`)
-  } catch {
-    return undefined
-  }
+  // Load all projects and find by slug field (not filename)
+  const projects = getProjects()
+  return projects.find(p => p.slug === slug)
 }
 
 export function getPerson(slug: string): Person | undefined {
