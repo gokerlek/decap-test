@@ -1,0 +1,6 @@
+{
+  "buildCommand": "pnpm build && pnpm export",
+  "outputDirectory": "site/out",
+  "framework": "nextjs",
+  "cleanUrls": true
+}

@@ -1,0 +1,16 @@
+{
+  "name": "agency-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "prebuild": "node scripts/img-build.mjs || true",
+    "build": "cd site && pnpm build",
+    "export": "cd site && pnpm export",
+    "dev": "cd site && pnpm dev",
+    "preview": "cd site && pnpm preview"
+  },
+  "dependencies": {
+    "globby": "^14",
+    "sharp": "^0.33"
+  }
+}
