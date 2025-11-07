@@ -15,7 +15,7 @@ export default function AdminPage() {
             branch: 'claude/setup-nextjs-agency-boilerplate-011CUtJ9HCRqbFrXyMaVNBqZ'
           },
           load_config_file: false,
-          media_folder: 'content/media',
+          media_folder: 'site/public/media',
           public_folder: '/media',
           collections: [
             {
