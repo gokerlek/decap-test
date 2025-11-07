@@ -1,7 +1,6 @@
 'use client'
 
 import { useEffect } from 'react'
-import 'decap-cms-app/dist/cms.css'
 
 export default function AdminPage() {
   useEffect(() => {
