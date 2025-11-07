@@ -15,7 +15,7 @@ export default function AdminPage() {
             branch: 'claude/setup-nextjs-agency-boilerplate-011CUtJ9HCRqbFrXyMaVNBqZ',
             base_url: 'https://api.netlify.com',
             auth_endpoint: 'auth',
-            site_domain: 'lighthearted-gumption-7decab.netlify.app'
+            site_domain: 'profound-meringue-6e61cd.netlify.app'
           },
           load_config_file: false,
           media_folder: 'site/public/media',
