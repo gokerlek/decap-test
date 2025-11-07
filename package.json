@@ -4,9 +4,8 @@
   "type": "module",
   "scripts": {
     "predev": "node scripts/copy-media.mjs",
-    "dev": "npm-run-all --parallel dev:* ",
-    "dev:next": "cd site && pnpm dev",
-    "dev:watch": "chokidar 'content/media/**/*' -c 'node scripts/copy-media.mjs'",
+    "dev": "cd site && pnpm dev",
+    "sync": "bash scripts/sync-from-cms.sh",
     "prebuild": "node scripts/copy-media.mjs && node scripts/img-build.mjs || true",
     "build": "cd site && pnpm build",
     "export": "cd site && pnpm export",
@@ -15,9 +14,5 @@
   "dependencies": {
     "globby": "^14",
     "sharp": "^0.33"
-  },
-  "devDependencies": {
-    "chokidar-cli": "^3.0.0",
-    "npm-run-all": "^4.1.5"
   }
 }
