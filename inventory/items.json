@@ -6,8 +6,8 @@
       "name": "Hellim",
       "emoji": "🧀",
       "category": "Peynir",
-      "quantity": 0,
-      "unit": "kg",
+      "quantity": 400,
+      "unit": "g",
       "packageSize": 250,
       "per100g": {
         "kcal": 321,
@@ -17,7 +17,7 @@
       },
       "status": "ok",
       "source": "meal",
-      "updatedAt": "2026-06-09T23:17:38.651Z"
+      "updatedAt": "2026-06-09T23:19:31.519Z"
     }
   ]
 }
