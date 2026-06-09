@@ -17,8 +17,8 @@
       },
       "status": "ok",
       "source": "meal",
-      "updatedAt": "2026-06-09T23:25:34.809Z",
-      "staple": true
+      "staple": false,
+      "updatedAt": "2026-06-09T23:25:44.779Z"
     },
     {
       "id": "01KTQAZY60A6QF1DS1W2N40TC6",
