@@ -7,7 +7,115 @@
     "carb": 200,
     "fat": 65
   },
-  "entries": [],
+  "entries": [
+    {
+      "id": "01KTQB02GT8Y3E3RQN8DJFNHN0",
+      "time": "02:20",
+      "meal": "breakfast",
+      "name": "Izgara Hellim Peyniri Tabağı",
+      "grams": 400,
+      "source": "ai-text",
+      "nutrition": {
+        "kcal": 909.4000000000001,
+        "protein": 49.040000000000006,
+        "carb": 100.2,
+        "fat": 38.43
+      },
+      "ingredients": [
+        {
+          "name": "Hellim Peyniri",
+          "grams": 100,
+          "per100g": {
+            "kcal": 321,
+            "protein": 21,
+            "carb": 2.2,
+            "fat": 25
+          }
+        },
+        {
+          "name": "Haşlanmış Yumurta",
+          "grams": 100,
+          "per100g": {
+            "kcal": 143,
+            "protein": 13,
+            "carb": 1.1,
+            "fat": 9.5
+          }
+        },
+        {
+          "name": "Karabuğday",
+          "grams": 100,
+          "per100g": {
+            "kcal": 343,
+            "protein": 13,
+            "carb": 71.5,
+            "fat": 3.4
+          }
+        },
+        {
+          "name": "Havuç",
+          "grams": 50,
+          "per100g": {
+            "kcal": 41,
+            "protein": 0.9,
+            "carb": 10,
+            "fat": 0.2
+          }
+        },
+        {
+          "name": "Kuru İncir",
+          "grams": 30,
+          "per100g": {
+            "kcal": 249,
+            "protein": 3.3,
+            "carb": 64,
+            "fat": 0.9
+          }
+        },
+        {
+          "name": "Maydanoz",
+          "grams": 20,
+          "per100g": {
+            "kcal": 36,
+            "protein": 3,
+            "carb": 6,
+            "fat": 0.8
+          }
+        }
+      ],
+      "aiNote": "",
+      "image": {
+        "type": "emoji",
+        "value": "🍽️"
+      },
+      "pantryOps": [
+        {
+          "itemId": "01KTQAZY60A6QF1DS1W2N40TC6",
+          "name": "Yumurta",
+          "unit": "adet",
+          "delta": 13,
+          "per100g": {
+            "kcal": 143,
+            "protein": 13,
+            "carb": 1.1,
+            "fat": 9.5
+          }
+        },
+        {
+          "itemId": "01KTQAS8SDZFGYYSE63NV4FB0Q",
+          "name": "Hellim",
+          "unit": "g",
+          "delta": -100,
+          "per100g": {
+            "kcal": 321,
+            "protein": 21,
+            "carb": 2.2,
+            "fat": 25
+          }
+        }
+      ]
+    }
+  ],
   "water": {
     "ml": 0,
     "goalMl": 2500
