@@ -1,16 +1,4 @@
 {
   "schemaVersion": 1,
-  "days": {
-    "2026-06-10": {
-      "kcal": 909.4000000000001,
-      "protein": 49.040000000000006,
-      "carb": 100.2,
-      "fat": 38.43,
-      "count": 1,
-      "targetKcal": 2000,
-      "targetProtein": 120,
-      "waterMl": 0,
-      "waterGoalMl": 2500
-    }
-  }
+  "days": {}
 }
