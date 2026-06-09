@@ -1,4 +1,54 @@
 {
   "schemaVersion": 1,
-  "recipes": []
+  "recipes": [
+    {
+      "id": "01KTQB27ZNC3S1VAW52PV8RD40",
+      "name": "Mercimek Çorbası",
+      "emoji": "🥣",
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Kırmızı mercimek",
+          "grams": 200,
+          "per100g": {
+            "kcal": 358,
+            "protein": 24,
+            "carb": 63,
+            "fat": 1.1
+          }
+        },
+        {
+          "name": "Soğan",
+          "grams": 80,
+          "per100g": {
+            "kcal": 40,
+            "protein": 1.1,
+            "carb": 9.3,
+            "fat": 0.1
+          }
+        },
+        {
+          "name": "Havuç",
+          "grams": 80,
+          "per100g": {
+            "kcal": 41,
+            "protein": 0.9,
+            "carb": 10,
+            "fat": 0.2
+          }
+        },
+        {
+          "name": "Un",
+          "grams": 20,
+          "per100g": {
+            "kcal": 364,
+            "protein": 10,
+            "carb": 76,
+            "fat": 1
+          }
+        }
+      ],
+      "updatedAt": "2026-06-09T23:21:44.181Z"
+    }
+  ]
 }
