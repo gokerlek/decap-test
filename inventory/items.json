@@ -18,6 +18,24 @@
       "status": "ok",
       "source": "meal",
       "updatedAt": "2026-06-09T23:19:31.519Z"
+    },
+    {
+      "id": "01KTQAZY60A6QF1DS1W2N40TC6",
+      "name": "Yumurta",
+      "emoji": "🥚",
+      "category": "Et & Tavuk & Balık",
+      "quantity": 13,
+      "unit": "adet",
+      "packageSize": 15,
+      "per100g": {
+        "kcal": 143,
+        "protein": 13,
+        "carb": 1.1,
+        "fat": 9.5
+      },
+      "status": "ok",
+      "source": "meal",
+      "updatedAt": "2026-06-09T23:20:28.608Z"
     }
   ]
 }
