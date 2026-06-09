@@ -1,4 +1,23 @@
 {
   "schemaVersion": 1,
-  "items": []
+  "items": [
+    {
+      "id": "01KTQAS8SDZFGYYSE63NV4FB0Q",
+      "name": "Hellim",
+      "emoji": "🧀",
+      "category": "Peynir",
+      "quantity": 0.15,
+      "unit": "kg",
+      "packageSize": 250,
+      "per100g": {
+        "kcal": 321,
+        "protein": 21,
+        "carb": 2.2,
+        "fat": 25
+      },
+      "status": "ok",
+      "source": "meal",
+      "updatedAt": "2026-06-09T23:16:50.094Z"
+    }
+  ]
 }
