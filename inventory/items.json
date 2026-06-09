@@ -6,7 +6,7 @@
       "name": "Hellim",
       "emoji": "🧀",
       "category": "Peynir",
-      "quantity": 300,
+      "quantity": 400,
       "unit": "g",
       "packageSize": 250,
       "per100g": {
@@ -17,14 +17,14 @@
       },
       "status": "ok",
       "source": "meal",
-      "updatedAt": "2026-06-09T23:20:30.738Z"
+      "updatedAt": "2026-06-09T23:20:54.530Z"
     },
     {
       "id": "01KTQAZY60A6QF1DS1W2N40TC6",
       "name": "Yumurta",
       "emoji": "🥚",
       "category": "Et & Tavuk & Balık",
-      "quantity": 13,
+      "quantity": 0,
       "unit": "adet",
       "packageSize": 15,
       "per100g": {
@@ -35,7 +35,7 @@
       },
       "status": "ok",
       "source": "meal",
-      "updatedAt": "2026-06-09T23:20:28.608Z"
+      "updatedAt": "2026-06-09T23:20:54.530Z"
     }
   ]
 }
