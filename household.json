@@ -6,5 +6,7 @@
       "name": "Gizem"
     }
   ],
-  "mealPattern": []
+  "mealPattern": [
+    "breakfast"
+  ]
 }
