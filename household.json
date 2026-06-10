@@ -5,5 +5,10 @@
       "id": "gizem",
       "name": "Gizem"
     }
+  ],
+  "mealPattern": [
+    "lunch",
+    "dinner",
+    "snack"
   ]
 }
