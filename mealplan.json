@@ -1,4 +1,13 @@
 {
   "schemaVersion": 1,
-  "items": []
+  "items": [
+    {
+      "id": "01KTRFAG0XA08P7GPSZ5H5Q1Q7",
+      "date": "2026-06-10",
+      "meal": "breakfast",
+      "recipeId": "01KTQB27ZNC3S1VAW52PV8RD40",
+      "name": "Mercimek Çorbası",
+      "emoji": "🥣"
+    }
+  ]
 }
