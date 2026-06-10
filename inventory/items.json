@@ -6,7 +6,7 @@
       "name": "Hellim",
       "emoji": "🧀",
       "category": "Peynir",
-      "quantity": 400,
+      "quantity": 300,
       "unit": "g",
       "packageSize": 250,
       "per100g": {
@@ -18,7 +18,7 @@
       "status": "ok",
       "source": "meal",
       "staple": false,
-      "updatedAt": "2026-06-09T23:25:44.779Z"
+      "updatedAt": "2026-06-10T08:09:46.518Z"
     },
     {
       "id": "01KTQAZY60A6QF1DS1W2N40TC6",
@@ -36,7 +36,7 @@
       },
       "status": "ok",
       "source": "meal",
-      "updatedAt": "2026-06-09T23:20:54.530Z"
+      "updatedAt": "2026-06-10T08:09:46.518Z"
     },
     {
       "id": "01KTR991Q58PTWDQ3AW853MXPV",
