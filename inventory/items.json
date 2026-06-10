@@ -37,6 +37,24 @@
       "status": "ok",
       "source": "meal",
       "updatedAt": "2026-06-09T23:20:54.530Z"
+    },
+    {
+      "id": "01KTR991Q58PTWDQ3AW853MXPV",
+      "name": "Havuç",
+      "emoji": "🥕",
+      "category": "Sebze",
+      "quantity": 0.95,
+      "unit": "kg",
+      "packageSize": 1000,
+      "per100g": {
+        "kcal": 41,
+        "protein": 0.9,
+        "carb": 10,
+        "fat": 0.2
+      },
+      "status": "ok",
+      "source": "meal",
+      "updatedAt": "2026-06-10T08:09:44.421Z"
     }
   ]
 }
