@@ -147,6 +147,55 @@
         }
       ],
       "updatedAt": "2026-06-11T09:28:17.616Z"
+    },
+    {
+      "id": "01KTV05TAV6H0MDFSA109HA7WZ",
+      "name": "Sebzeli Omlet",
+      "emoji": "🍳",
+      "servings": 1,
+      "ingredients": [
+        {
+          "name": "Yumurta",
+          "grams": 100,
+          "per100g": {
+            "kcal": 143,
+            "protein": 13,
+            "carb": 1.1,
+            "fat": 9.5
+          }
+        },
+        {
+          "name": "Biber",
+          "grams": 40,
+          "per100g": {
+            "kcal": 20,
+            "protein": 0.9,
+            "carb": 4.6,
+            "fat": 0.2
+          }
+        },
+        {
+          "name": "Domates",
+          "grams": 60,
+          "per100g": {
+            "kcal": 18,
+            "protein": 0.9,
+            "carb": 3.9,
+            "fat": 0.2
+          }
+        },
+        {
+          "name": "Soğan",
+          "grams": 30,
+          "per100g": {
+            "kcal": 40,
+            "protein": 1.1,
+            "carb": 9.3,
+            "fat": 0.1
+          }
+        }
+      ],
+      "updatedAt": "2026-06-11T09:28:24.667Z"
     }
   ]
 }
