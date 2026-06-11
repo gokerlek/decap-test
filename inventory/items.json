@@ -6,7 +6,7 @@
       "name": "Hellim",
       "emoji": "🧀",
       "category": "Peynir",
-      "quantity": 300,
+      "quantity": 200,
       "unit": "g",
       "packageSize": 250,
       "per100g": {
@@ -18,14 +18,14 @@
       "status": "ok",
       "source": "meal",
       "staple": false,
-      "updatedAt": "2026-06-10T08:09:46.518Z"
+      "updatedAt": "2026-06-11T09:24:01.242Z"
     },
     {
       "id": "01KTR991Q58PTWDQ3AW853MXPV",
       "name": "Havuç",
       "emoji": "🥕",
       "category": "Sebze",
-      "quantity": 0.95,
+      "quantity": 0.9,
       "unit": "kg",
       "packageSize": 1000,
       "per100g": {
@@ -36,8 +36,8 @@
       },
       "status": "ok",
       "source": "meal",
-      "updatedAt": "2026-06-11T08:23:48.751Z",
-      "staple": true
+      "staple": true,
+      "updatedAt": "2026-06-11T09:24:01.242Z"
     }
   ]
 }
