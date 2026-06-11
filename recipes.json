@@ -49,6 +49,55 @@
         }
       ],
       "updatedAt": "2026-06-09T23:21:44.181Z"
+    },
+    {
+      "id": "01KTV04ZKX78F1JY0QVBSGYFJ2",
+      "name": "Tavuk Çorbası",
+      "emoji": "🍲",
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Tavuk göğsü",
+          "grams": 200,
+          "per100g": {
+            "kcal": 165,
+            "protein": 31,
+            "carb": 0,
+            "fat": 3.6
+          }
+        },
+        {
+          "name": "Şehriye",
+          "grams": 60,
+          "per100g": {
+            "kcal": 370,
+            "protein": 12,
+            "carb": 74,
+            "fat": 1.5
+          }
+        },
+        {
+          "name": "Havuç",
+          "grams": 60,
+          "per100g": {
+            "kcal": 41,
+            "protein": 0.9,
+            "carb": 10,
+            "fat": 0.2
+          }
+        },
+        {
+          "name": "Un",
+          "grams": 20,
+          "per100g": {
+            "kcal": 364,
+            "protein": 10,
+            "carb": 76,
+            "fat": 1
+          }
+        }
+      ],
+      "updatedAt": "2026-06-11T09:27:57.310Z"
     }
   ]
 }
