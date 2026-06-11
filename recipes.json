@@ -98,6 +98,55 @@
         }
       ],
       "updatedAt": "2026-06-11T09:27:57.310Z"
+    },
+    {
+      "id": "01KTV05KEG7Z576M4X3YS8XDM3",
+      "name": "Menemen",
+      "emoji": "🍳",
+      "servings": 1,
+      "ingredients": [
+        {
+          "name": "Yumurta",
+          "grams": 100,
+          "per100g": {
+            "kcal": 143,
+            "protein": 13,
+            "carb": 1.1,
+            "fat": 9.5
+          }
+        },
+        {
+          "name": "Domates",
+          "grams": 150,
+          "per100g": {
+            "kcal": 18,
+            "protein": 0.9,
+            "carb": 3.9,
+            "fat": 0.2
+          }
+        },
+        {
+          "name": "Biber",
+          "grams": 50,
+          "per100g": {
+            "kcal": 20,
+            "protein": 0.9,
+            "carb": 4.6,
+            "fat": 0.2
+          }
+        },
+        {
+          "name": "Zeytinyağı",
+          "grams": 15,
+          "per100g": {
+            "kcal": 884,
+            "protein": 0,
+            "carb": 0,
+            "fat": 100
+          }
+        }
+      ],
+      "updatedAt": "2026-06-11T09:28:17.616Z"
     }
   ]
 }
