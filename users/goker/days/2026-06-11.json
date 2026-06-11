@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-06-11",
+  "targetsSnapshot": {
+    "kcal": 2000,
+    "protein": 120,
+    "carb": 200,
+    "fat": 65
+  },
+  "entries": [
+    {
+      "id": "01KTTZXVBGDRM9F7APFD2XVN7H",
+      "time": "12:24",
+      "meal": "lunch",
+      "name": "Izgara Hellim Peynirli Kahvaltı Tabağı",
+      "grams": 450,
+      "source": "ai-text",
+      "nutrition": {
+        "kcal": 764.4000000000001,
+        "protein": 41.14000000000001,
+        "carb": 73.55,
+        "fat": 35.93
+      },
+      "ingredients": [
+        {
+          "name": "Hellim Peyniri",
+          "grams": 100,
+          "per100g": {
+            "kcal": 321,
+            "protein": 21,
+            "carb": 2.2,
+            "fat": 25
+          }
+        },
+        {
+          "name": "Yumurta",
+          "grams": 100,
+          "per100g": {
+            "kcal": 143,
+            "protein": 13,
+            "carb": 1.1,
+            "fat": 9.5
+          }
+        },
+        {
+          "name": "Karabuğday Pilavı",
+          "grams": 150,
+          "per100g": {
+            "kcal": 132,
+            "protein": 3.4,
+            "carb": 29.9,
+            "fat": 0.6
+          }
+        },
+        {
+          "name": "Havuç",
+          "grams": 50,
+          "per100g": {
+            "kcal": 41,
+            "protein": 0.9,
+            "carb": 10,
+            "fat": 0.2
+          }
+        },
+        {
+          "name": "Kuru İncir",
+          "grams": 30,
+          "per100g": {
+            "kcal": 249,
+            "protein": 3.3,
+            "carb": 64,
+            "fat": 0.9
+          }
+        },
+        {
+          "name": "Maydanoz",
+          "grams": 20,
+          "per100g": {
+            "kcal": 36,
+            "protein": 3,
+            "carb": 6,
+            "fat": 0.8
+          }
+        }
+      ],
+      "aiNote": "Görselde ızgara hellim peyniri, haşlanmış yumurta, havuç, kuru incir, maydanoz ve karabuğday pilavı bulunmaktadır.",
+      "image": {
+        "type": "emoji",
+        "value": "🍽️"
+      },
+      "pantryOps": [
+        {
+          "itemId": "01KTQAS8SDZFGYYSE63NV4FB0Q",
+          "name": "Hellim",
+          "unit": "g",
+          "delta": -100,
+          "per100g": {
+            "kcal": 321,
+            "protein": 21,
+            "carb": 2.2,
+            "fat": 25
+          }
+        },
+        {
+          "itemId": "01KTR991Q58PTWDQ3AW853MXPV",
+          "name": "Havuç",
+          "unit": "kg",
+          "delta": -0.05,
+          "per100g": {
+            "kcal": 41,
+            "protein": 0.9,
+            "carb": 10,
+            "fat": 0.2
+          }
+        }
+      ]
+    }
+  ],
+  "water": {
+    "ml": 0,
+    "goalMl": 2500
+  }
+}
