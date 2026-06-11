@@ -36,7 +36,8 @@
       },
       "status": "ok",
       "source": "meal",
-      "updatedAt": "2026-06-10T08:09:44.421Z"
+      "updatedAt": "2026-06-11T08:23:48.751Z",
+      "staple": true
     }
   ]
 }
