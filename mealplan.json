@@ -8,6 +8,70 @@
       "recipeId": "01KTQB27ZNC3S1VAW52PV8RD40",
       "name": "Mercimek Çorbası",
       "emoji": "🥣"
+    },
+    {
+      "id": "01KTV08H9G3SVZ6KBRFNVM5A4Q",
+      "date": "2026-06-11",
+      "meal": "breakfast",
+      "recipeId": "01KTV05KEG7Z576M4X3YS8XDM3",
+      "name": "Menemen",
+      "emoji": "🍳"
+    },
+    {
+      "id": "01KTV08H9GK2S0TX9RH0572RCK",
+      "date": "2026-06-11",
+      "meal": "dinner",
+      "recipeId": "01KTQB27ZNC3S1VAW52PV8RD40",
+      "name": "Mercimek Çorbası",
+      "emoji": "🥣"
+    },
+    {
+      "id": "01KTV08H9G0JB83D2DY3ACKWQK",
+      "date": "2026-06-12",
+      "meal": "breakfast",
+      "recipeId": "01KTV05TAV6H0MDFSA109HA7WZ",
+      "name": "Sebzeli Omlet",
+      "emoji": "🍳"
+    },
+    {
+      "id": "01KTV08H9GPFS056K38Z6VX54M",
+      "date": "2026-06-12",
+      "meal": "dinner",
+      "recipeId": "01KTV04ZKX78F1JY0QVBSGYFJ2",
+      "name": "Tavuk Çorbası",
+      "emoji": "🍲"
+    },
+    {
+      "id": "01KTV08H9GVXXQFDWE5XZ82EXA",
+      "date": "2026-06-13",
+      "meal": "breakfast",
+      "recipeId": "01KTV05KEG7Z576M4X3YS8XDM3",
+      "name": "Menemen",
+      "emoji": "🍳"
+    },
+    {
+      "id": "01KTV08H9GG00E53BDBMYM967T",
+      "date": "2026-06-13",
+      "meal": "dinner",
+      "recipeId": "01KTQB27ZNC3S1VAW52PV8RD40",
+      "name": "Mercimek Çorbası",
+      "emoji": "🥣"
+    },
+    {
+      "id": "01KTV08H9GWJR5PCN9CJHMZM41",
+      "date": "2026-06-14",
+      "meal": "breakfast",
+      "recipeId": "01KTV05TAV6H0MDFSA109HA7WZ",
+      "name": "Sebzeli Omlet",
+      "emoji": "🍳"
+    },
+    {
+      "id": "01KTV08H9G4G3JZMFBWM65DFSE",
+      "date": "2026-06-14",
+      "meal": "dinner",
+      "recipeId": "01KTV04ZKX78F1JY0QVBSGYFJ2",
+      "name": "Tavuk Çorbası",
+      "emoji": "🍲"
     }
   ]
 }
