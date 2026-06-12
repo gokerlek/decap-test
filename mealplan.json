@@ -80,6 +80,14 @@
       "recipeId": "01KTV04ZKX78F1JY0QVBSGYFJ2",
       "name": "Tavuk Çorbası",
       "emoji": "🍲"
+    },
+    {
+      "id": "01KTYZPH20WXAACA9MH1SM92F6",
+      "date": "2026-06-13",
+      "meal": "snack",
+      "recipeId": "01KTQB27ZNC3S1VAW52PV8RD40",
+      "name": "Mercimek Çorbası",
+      "emoji": "🥣"
     }
   ]
 }
