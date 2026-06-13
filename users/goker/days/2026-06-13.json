@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-06-13",
+  "targetsSnapshot": {
+    "kcal": 2000,
+    "protein": 120,
+    "carb": 200,
+    "fat": 65
+  },
+  "entries": [
+    {
+      "id": "01KTZVY9C401A63JAMNQ2A6HN2",
+      "time": "09:50",
+      "meal": "breakfast",
+      "name": "Menemen",
+      "grams": 315,
+      "source": "ai-text",
+      "nutrition": {
+        "kcal": 312.6,
+        "protein": 14.799999999999999,
+        "carb": 9.25,
+        "fat": 24.9
+      },
+      "ingredients": [
+        {
+          "name": "Yumurta",
+          "grams": 100,
+          "per100g": {
+            "kcal": 143,
+            "protein": 13,
+            "carb": 1.1,
+            "fat": 9.5
+          }
+        },
+        {
+          "name": "Domates",
+          "grams": 150,
+          "per100g": {
+            "kcal": 18,
+            "protein": 0.9,
+            "carb": 3.9,
+            "fat": 0.2
+          }
+        },
+        {
+          "name": "Biber",
+          "grams": 50,
+          "per100g": {
+            "kcal": 20,
+            "protein": 0.9,
+            "carb": 4.6,
+            "fat": 0.2
+          }
+        },
+        {
+          "name": "Zeytinyağı",
+          "grams": 15,
+          "per100g": {
+            "kcal": 884,
+            "protein": 0,
+            "carb": 0,
+            "fat": 100
+          }
+        }
+      ],
+      "aiNote": "Tarif: Menemen",
+      "image": {
+        "type": "emoji",
+        "value": "🍽️"
+      }
+    }
+  ],
+  "water": {
+    "ml": 0,
+    "goalMl": 2500
+  }
+}
