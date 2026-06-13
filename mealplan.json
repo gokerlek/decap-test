@@ -112,6 +112,14 @@
       "recipeId": "01KTV04ZKX78F1JY0QVBSGYFJ2",
       "name": "Tavuk Çorbası",
       "emoji": "🍲"
+    },
+    {
+      "id": "01KTZVVCAJ8XQQ7MZ6Z0NEC5TR",
+      "date": "2026-06-13",
+      "meal": "dinner",
+      "recipeId": "01KTV05TAV6H0MDFSA109HA7WZ",
+      "name": "Sebzeli Omlet",
+      "emoji": "🍳"
     }
   ]
 }
