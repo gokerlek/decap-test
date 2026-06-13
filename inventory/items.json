@@ -25,7 +25,7 @@
       "name": "Havuç",
       "emoji": "🥕",
       "category": "Sebze",
-      "quantity": 0.9,
+      "quantity": 0.84,
       "unit": "kg",
       "packageSize": 1000,
       "per100g": {
@@ -37,7 +37,7 @@
       "status": "ok",
       "source": "meal",
       "staple": true,
-      "updatedAt": "2026-06-11T09:24:01.242Z"
+      "updatedAt": "2026-06-13T06:50:51.164Z"
     }
   ]
 }
