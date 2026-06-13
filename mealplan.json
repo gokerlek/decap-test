@@ -82,7 +82,10 @@
       "meal": "snack",
       "recipeId": "01KTV04ZKX78F1JY0QVBSGYFJ2",
       "name": "Tavuk Çorbası",
-      "emoji": "🍲"
+      "emoji": "🍲",
+      "eatenBy": [
+        "goker"
+      ]
     },
     {
       "id": "01KTYZPH20WXAACA9MH1SM92F6",
