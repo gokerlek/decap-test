@@ -47,7 +47,10 @@
       "meal": "breakfast",
       "recipeId": "01KTV05KEG7Z576M4X3YS8XDM3",
       "name": "Menemen",
-      "emoji": "🍳"
+      "emoji": "🍳",
+      "eatenBy": [
+        "goker"
+      ]
     },
     {
       "id": "01KTV08H9GG00E53BDBMYM967T",
