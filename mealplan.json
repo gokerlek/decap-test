@@ -66,7 +66,10 @@
       "meal": "breakfast",
       "recipeId": "01KTV05TAV6H0MDFSA109HA7WZ",
       "name": "Sebzeli Omlet",
-      "emoji": "🍳"
+      "emoji": "🍳",
+      "eatenBy": [
+        "goker"
+      ]
     },
     {
       "id": "01KTV08H9G4G3JZMFBWM65DFSE",
