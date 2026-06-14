@@ -304,6 +304,45 @@
         }
       ],
       "updatedAt": "2026-06-14T09:44:25.058Z"
+    },
+    {
+      "id": "01KV2R9CYW792ECS137ES62TA3",
+      "name": "Domates Çorbası",
+      "emoji": "🍅",
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Domates",
+          "grams": 400,
+          "per100g": {
+            "kcal": 18,
+            "protein": 0.9,
+            "carb": 3.9,
+            "fat": 0.2
+          }
+        },
+        {
+          "name": "Un",
+          "grams": 30,
+          "per100g": {
+            "kcal": 364,
+            "protein": 10,
+            "carb": 76,
+            "fat": 1
+          }
+        },
+        {
+          "name": "Tereyağı",
+          "grams": 20,
+          "per100g": {
+            "kcal": 717,
+            "protein": 0.9,
+            "carb": 0.1,
+            "fat": 81
+          }
+        }
+      ],
+      "updatedAt": "2026-06-14T09:44:28.892Z"
     }
   ]
 }
