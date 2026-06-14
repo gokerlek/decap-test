@@ -129,6 +129,57 @@
         "type": "emoji",
         "value": "🍽️"
       }
+    },
+    {
+      "id": "01KV2ZWQNAQ7771ENKQS4XDY8Y",
+      "time": "14:57",
+      "meal": "lunch",
+      "name": "Domates Çorbası",
+      "grams": 112.5,
+      "source": "ai-text",
+      "nutrition": {
+        "kcal": 81.15,
+        "protein": 1.6949999999999998,
+        "carb": 9.605,
+        "fat": 4.325
+      },
+      "ingredients": [
+        {
+          "name": "Domates",
+          "grams": 100,
+          "per100g": {
+            "kcal": 18,
+            "protein": 0.9,
+            "carb": 3.9,
+            "fat": 0.2
+          }
+        },
+        {
+          "name": "Un",
+          "grams": 7.5,
+          "per100g": {
+            "kcal": 364,
+            "protein": 10,
+            "carb": 76,
+            "fat": 1
+          }
+        },
+        {
+          "name": "Tereyağı",
+          "grams": 5,
+          "per100g": {
+            "kcal": 717,
+            "protein": 0.9,
+            "carb": 0.1,
+            "fat": 81
+          }
+        }
+      ],
+      "aiNote": "Tarif: Domates Çorbası (1 porsiyon)",
+      "image": {
+        "type": "emoji",
+        "value": "🍽️"
+      }
     }
   ],
   "water": {
