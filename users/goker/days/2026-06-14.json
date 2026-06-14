@@ -180,6 +180,81 @@
         "type": "emoji",
         "value": "🍽️"
       }
+    },
+    {
+      "id": "01KV2ZX3B37DJFHG0TZ3V8DFDZ",
+      "time": "14:57",
+      "meal": "lunch",
+      "name": "Tavuk Çorbası",
+      "grams": 85,
+      "source": "ai-text",
+      "nutrition": {
+        "kcal": 162.35,
+        "protein": 17.935000000000002,
+        "carb": 16.4,
+        "fat": 2.1049999999999995
+      },
+      "ingredients": [
+        {
+          "name": "Tavuk göğsü",
+          "grams": 50,
+          "per100g": {
+            "kcal": 165,
+            "protein": 31,
+            "carb": 0,
+            "fat": 3.6
+          }
+        },
+        {
+          "name": "Şehriye",
+          "grams": 15,
+          "per100g": {
+            "kcal": 370,
+            "protein": 12,
+            "carb": 74,
+            "fat": 1.5
+          }
+        },
+        {
+          "name": "Havuç",
+          "grams": 15,
+          "per100g": {
+            "kcal": 41,
+            "protein": 0.9,
+            "carb": 10,
+            "fat": 0.2
+          }
+        },
+        {
+          "name": "Un",
+          "grams": 5,
+          "per100g": {
+            "kcal": 364,
+            "protein": 10,
+            "carb": 76,
+            "fat": 1
+          }
+        }
+      ],
+      "aiNote": "Tarif: Tavuk Çorbası (1 porsiyon)",
+      "image": {
+        "type": "emoji",
+        "value": "🍽️"
+      },
+      "pantryOps": [
+        {
+          "itemId": "01KTR991Q58PTWDQ3AW853MXPV",
+          "name": "Havuç",
+          "unit": "kg",
+          "delta": -0.015,
+          "per100g": {
+            "kcal": 41,
+            "protein": 0.9,
+            "carb": 10,
+            "fat": 0.2
+          }
+        }
+      ]
     }
   ],
   "water": {
