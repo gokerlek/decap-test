@@ -68,6 +68,67 @@
         "type": "emoji",
         "value": "🍽️"
       }
+    },
+    {
+      "id": "01KV2ZWDB7DBFRCFZQ6S1D4K8W",
+      "time": "14:57",
+      "meal": "lunch",
+      "name": "Sebzeli Omlet",
+      "grams": 230,
+      "source": "ai-text",
+      "nutrition": {
+        "kcal": 173.8,
+        "protein": 14.229999999999999,
+        "carb": 8.07,
+        "fat": 9.729999999999999
+      },
+      "ingredients": [
+        {
+          "name": "Yumurta",
+          "grams": 100,
+          "per100g": {
+            "kcal": 143,
+            "protein": 13,
+            "carb": 1.1,
+            "fat": 9.5
+          }
+        },
+        {
+          "name": "Biber",
+          "grams": 40,
+          "per100g": {
+            "kcal": 20,
+            "protein": 0.9,
+            "carb": 4.6,
+            "fat": 0.2
+          }
+        },
+        {
+          "name": "Domates",
+          "grams": 60,
+          "per100g": {
+            "kcal": 18,
+            "protein": 0.9,
+            "carb": 3.9,
+            "fat": 0.2
+          }
+        },
+        {
+          "name": "Soğan",
+          "grams": 30,
+          "per100g": {
+            "kcal": 40,
+            "protein": 1.1,
+            "carb": 9.3,
+            "fat": 0.1
+          }
+        }
+      ],
+      "aiNote": "Tarif: Sebzeli Omlet (1 porsiyon)",
+      "image": {
+        "type": "emoji",
+        "value": "🍽️"
+      }
     }
   ],
   "water": {
