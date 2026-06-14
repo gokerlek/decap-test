@@ -255,6 +255,55 @@
         }
       ],
       "updatedAt": "2026-06-14T09:44:18.525Z"
+    },
+    {
+      "id": "01KV2R9972XCYD6QKGVFR0HFT3",
+      "name": "Yayla Çorbası",
+      "emoji": "🥣",
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Yoğurt",
+          "grams": 200,
+          "per100g": {
+            "kcal": 61,
+            "protein": 3.5,
+            "carb": 4.7,
+            "fat": 3.3
+          }
+        },
+        {
+          "name": "Pirinç",
+          "grams": 60,
+          "per100g": {
+            "kcal": 360,
+            "protein": 7,
+            "carb": 79,
+            "fat": 0.6
+          }
+        },
+        {
+          "name": "Un",
+          "grams": 20,
+          "per100g": {
+            "kcal": 364,
+            "protein": 10,
+            "carb": 76,
+            "fat": 1
+          }
+        },
+        {
+          "name": "Yumurta",
+          "grams": 50,
+          "per100g": {
+            "kcal": 143,
+            "protein": 13,
+            "carb": 1.1,
+            "fat": 9.5
+          }
+        }
+      ],
+      "updatedAt": "2026-06-14T09:44:25.058Z"
     }
   ]
 }
