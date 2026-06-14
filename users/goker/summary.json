@@ -22,6 +22,17 @@
       "targetProtein": 120,
       "waterMl": 0,
       "waterGoalMl": 2500
+    },
+    "2026-06-14": {
+      "kcal": 173.8,
+      "protein": 14.229999999999999,
+      "carb": 8.07,
+      "fat": 9.729999999999999,
+      "count": 1,
+      "targetKcal": 2000,
+      "targetProtein": 120,
+      "waterMl": 0,
+      "waterGoalMl": 2500
     }
   }
 }
