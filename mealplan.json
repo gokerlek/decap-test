@@ -136,7 +136,10 @@
       "meal": "snack",
       "recipeId": "01KV2R9CYW792ECS137ES62TA3",
       "name": "Domates Çorbası",
-      "emoji": "🍅"
+      "emoji": "🍅",
+      "eatenBy": [
+        "goker"
+      ]
     }
   ]
 }
