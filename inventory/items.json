@@ -72,6 +72,23 @@
       "status": "ok",
       "source": "manual",
       "updatedAt": "2026-06-16T06:44:58.903Z"
+    },
+    {
+      "id": "01KV7JTCJ07494Q8CFG314AACF",
+      "name": "Salatalık",
+      "emoji": "🥒",
+      "category": "Sebze",
+      "quantity": 1,
+      "unit": "kg",
+      "per100g": {
+        "kcal": 15,
+        "protein": 0.7,
+        "carb": 3.6,
+        "fat": 0.1
+      },
+      "status": "ok",
+      "source": "manual",
+      "updatedAt": "2026-06-16T06:45:06.240Z"
     }
   ]
 }
