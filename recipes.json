@@ -440,6 +440,35 @@
         }
       ],
       "updatedAt": "2026-06-16T07:07:57.431Z"
+    },
+    {
+      "id": "01KV7M4C8P45343D0WXY6HN2XK",
+      "name": "Kaymaklı Bal",
+      "emoji": "🍯",
+      "servings": 1,
+      "ingredients": [
+        {
+          "name": "Kaymak",
+          "grams": 50,
+          "per100g": {
+            "kcal": 330,
+            "protein": 4,
+            "carb": 3,
+            "fat": 34
+          }
+        },
+        {
+          "name": "Bal",
+          "grams": 40,
+          "per100g": {
+            "kcal": 304,
+            "protein": 0.3,
+            "carb": 82,
+            "fat": 0
+          }
+        }
+      ],
+      "updatedAt": "2026-06-16T07:08:02.198Z"
     }
   ]
 }
