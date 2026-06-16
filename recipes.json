@@ -498,6 +498,45 @@
         }
       ],
       "updatedAt": "2026-06-16T07:08:10.402Z"
+    },
+    {
+      "id": "01KV7M4VSK6F9G1RFBDYKBX2C2",
+      "name": "Roka Salatası",
+      "emoji": "🥗",
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "Roka",
+          "grams": 100,
+          "per100g": {
+            "kcal": 25,
+            "protein": 2.6,
+            "carb": 3.7,
+            "fat": 0.7
+          }
+        },
+        {
+          "name": "Domates",
+          "grams": 150,
+          "per100g": {
+            "kcal": 18,
+            "protein": 0.9,
+            "carb": 3.9,
+            "fat": 0.2
+          }
+        },
+        {
+          "name": "Zeytinyağı",
+          "grams": 15,
+          "per100g": {
+            "kcal": 884,
+            "protein": 0,
+            "carb": 0,
+            "fat": 100
+          }
+        }
+      ],
+      "updatedAt": "2026-06-16T07:08:18.099Z"
     }
   ]
 }
