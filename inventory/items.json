@@ -123,6 +123,23 @@
       "status": "ok",
       "source": "manual",
       "updatedAt": "2026-06-16T06:45:26.172Z"
+    },
+    {
+      "id": "01KV7JVJHXX1R5K6V89X3KGZRZ",
+      "name": "Dil peyniri",
+      "emoji": "🧀",
+      "category": "Peynir",
+      "quantity": 1,
+      "unit": "kg",
+      "per100g": {
+        "kcal": 300,
+        "protein": 24,
+        "carb": 2,
+        "fat": 22
+      },
+      "status": "ok",
+      "source": "manual",
+      "updatedAt": "2026-06-16T06:45:45.149Z"
     }
   ]
 }
