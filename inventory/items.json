@@ -89,6 +89,23 @@
       "status": "ok",
       "source": "manual",
       "updatedAt": "2026-06-16T06:45:06.240Z"
+    },
+    {
+      "id": "01KV7JTJJGBYRFJZ9YC4P3QV91",
+      "name": "Salam",
+      "emoji": "🥓",
+      "category": "Et & Tavuk & Balık",
+      "quantity": 1,
+      "unit": "paket",
+      "per100g": {
+        "kcal": 280,
+        "protein": 18,
+        "carb": 2,
+        "fat": 22
+      },
+      "status": "ok",
+      "source": "manual",
+      "updatedAt": "2026-06-16T06:45:12.401Z"
     }
   ]
 }
