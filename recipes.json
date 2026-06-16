@@ -401,6 +401,45 @@
         }
       ],
       "updatedAt": "2026-06-16T07:07:51.463Z"
+    },
+    {
+      "id": "01KV7M47KQBND0R514B0VNFV77",
+      "name": "Mantarlı Yumurta",
+      "emoji": "🍄",
+      "servings": 1,
+      "ingredients": [
+        {
+          "name": "Yumurta",
+          "grams": 100,
+          "per100g": {
+            "kcal": 143,
+            "protein": 13,
+            "carb": 1.1,
+            "fat": 9.5
+          }
+        },
+        {
+          "name": "Mantar",
+          "grams": 80,
+          "per100g": {
+            "kcal": 22,
+            "protein": 3.1,
+            "carb": 3.3,
+            "fat": 0.3
+          }
+        },
+        {
+          "name": "Tereyağı",
+          "grams": 15,
+          "per100g": {
+            "kcal": 717,
+            "protein": 0.9,
+            "carb": 0.1,
+            "fat": 81
+          }
+        }
+      ],
+      "updatedAt": "2026-06-16T07:07:57.431Z"
     }
   ]
 }
