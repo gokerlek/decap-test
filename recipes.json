@@ -537,6 +537,65 @@
         }
       ],
       "updatedAt": "2026-06-16T07:08:18.099Z"
+    },
+    {
+      "id": "01KV7M4YC2Z599RZ7Q5052EB2Z",
+      "name": "Çoban Salata",
+      "emoji": "🥗",
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "Domates",
+          "grams": 200,
+          "per100g": {
+            "kcal": 18,
+            "protein": 0.9,
+            "carb": 3.9,
+            "fat": 0.2
+          }
+        },
+        {
+          "name": "Salatalık",
+          "grams": 150,
+          "per100g": {
+            "kcal": 15,
+            "protein": 0.7,
+            "carb": 3.6,
+            "fat": 0.1
+          }
+        },
+        {
+          "name": "Soğan",
+          "grams": 50,
+          "per100g": {
+            "kcal": 40,
+            "protein": 1.1,
+            "carb": 9.3,
+            "fat": 0.1
+          }
+        },
+        {
+          "name": "Biber",
+          "grams": 50,
+          "per100g": {
+            "kcal": 20,
+            "protein": 0.9,
+            "carb": 4.6,
+            "fat": 0.2
+          }
+        },
+        {
+          "name": "Zeytinyağı",
+          "grams": 15,
+          "per100g": {
+            "kcal": 884,
+            "protein": 0,
+            "carb": 0,
+            "fat": 100
+          }
+        }
+      ],
+      "updatedAt": "2026-06-16T07:08:20.738Z"
     }
   ]
 }
