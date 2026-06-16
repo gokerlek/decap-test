@@ -343,6 +343,35 @@
         }
       ],
       "updatedAt": "2026-06-14T09:44:28.892Z"
+    },
+    {
+      "id": "01KV7M3XVPDPAKMMT5875JA4VJ",
+      "name": "Sucuklu Yumurta",
+      "emoji": "🍳",
+      "servings": 1,
+      "ingredients": [
+        {
+          "name": "Yumurta",
+          "grams": 100,
+          "per100g": {
+            "kcal": 143,
+            "protein": 13,
+            "carb": 1.1,
+            "fat": 9.5
+          }
+        },
+        {
+          "name": "Sucuk",
+          "grams": 60,
+          "per100g": {
+            "kcal": 460,
+            "protein": 22,
+            "carb": 2,
+            "fat": 40
+          }
+        }
+      ],
+      "updatedAt": "2026-06-16T07:07:47.447Z"
     }
   ]
 }
