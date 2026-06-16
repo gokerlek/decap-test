@@ -55,6 +55,23 @@
       "status": "ok",
       "source": "manual",
       "updatedAt": "2026-06-16T06:44:44.207Z"
+    },
+    {
+      "id": "01KV7JT5CQRP3XJHJ52WT3ZPRG",
+      "name": "Domates",
+      "emoji": "🍅",
+      "category": "Sebze",
+      "quantity": 1,
+      "unit": "kg",
+      "per100g": {
+        "kcal": 18,
+        "protein": 0.9,
+        "carb": 3.9,
+        "fat": 0.2
+      },
+      "status": "ok",
+      "source": "manual",
+      "updatedAt": "2026-06-16T06:44:58.903Z"
     }
   ]
 }
