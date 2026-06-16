@@ -694,6 +694,55 @@
         }
       ],
       "updatedAt": "2026-06-16T07:08:26.733Z"
+    },
+    {
+      "id": "01KV7M57JQB44VHFB4TX7RXFGR",
+      "name": "Patates Salatası",
+      "emoji": "🥔",
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Patates",
+          "grams": 400,
+          "per100g": {
+            "kcal": 77,
+            "protein": 2,
+            "carb": 17,
+            "fat": 0.1
+          }
+        },
+        {
+          "name": "Soğan",
+          "grams": 60,
+          "per100g": {
+            "kcal": 40,
+            "protein": 1.1,
+            "carb": 9.3,
+            "fat": 0.1
+          }
+        },
+        {
+          "name": "Maydanoz",
+          "grams": 30,
+          "per100g": {
+            "kcal": 36,
+            "protein": 3,
+            "carb": 6,
+            "fat": 0.8
+          }
+        },
+        {
+          "name": "Zeytinyağı",
+          "grams": 30,
+          "per100g": {
+            "kcal": 884,
+            "protein": 0,
+            "carb": 0,
+            "fat": 100
+          }
+        }
+      ],
+      "updatedAt": "2026-06-16T07:08:30.167Z"
     }
   ]
 }
