@@ -372,6 +372,35 @@
         }
       ],
       "updatedAt": "2026-06-16T07:07:47.447Z"
+    },
+    {
+      "id": "01KV7M41S7SQ0V95MA3W6X0F5F",
+      "name": "Peynirli Omlet",
+      "emoji": "🍳",
+      "servings": 1,
+      "ingredients": [
+        {
+          "name": "Yumurta",
+          "grams": 100,
+          "per100g": {
+            "kcal": 143,
+            "protein": 13,
+            "carb": 1.1,
+            "fat": 9.5
+          }
+        },
+        {
+          "name": "Beyaz peynir",
+          "grams": 40,
+          "per100g": {
+            "kcal": 264,
+            "protein": 17,
+            "carb": 2,
+            "fat": 21
+          }
+        }
+      ],
+      "updatedAt": "2026-06-16T07:07:51.463Z"
     }
   ]
 }
