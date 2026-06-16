@@ -38,6 +38,23 @@
       "source": "meal",
       "staple": true,
       "updatedAt": "2026-06-14T11:57:49.697Z"
+    },
+    {
+      "id": "01KV7JSQ1FHXA97N24X32SFHB0",
+      "name": "Ekmek",
+      "emoji": "🍞",
+      "category": "Tahıl & Ekmek",
+      "quantity": 1,
+      "unit": "adet",
+      "per100g": {
+        "kcal": 265,
+        "protein": 9,
+        "carb": 49,
+        "fat": 3.2
+      },
+      "status": "ok",
+      "source": "manual",
+      "updatedAt": "2026-06-16T06:44:44.207Z"
     }
   ]
 }
