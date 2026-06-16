@@ -469,6 +469,35 @@
         }
       ],
       "updatedAt": "2026-06-16T07:08:02.198Z"
+    },
+    {
+      "id": "01KV7M4M92K0EMRKA3Q0HEDWHK",
+      "name": "Peynirli Gözleme",
+      "emoji": "🫓",
+      "servings": 1,
+      "ingredients": [
+        {
+          "name": "Yufka",
+          "grams": 120,
+          "per100g": {
+            "kcal": 290,
+            "protein": 8,
+            "carb": 56,
+            "fat": 3
+          }
+        },
+        {
+          "name": "Beyaz peynir",
+          "grams": 60,
+          "per100g": {
+            "kcal": 264,
+            "protein": 17,
+            "carb": 2,
+            "fat": 21
+          }
+        }
+      ],
+      "updatedAt": "2026-06-16T07:08:10.402Z"
     }
   ]
 }
