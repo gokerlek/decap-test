@@ -596,6 +596,55 @@
         }
       ],
       "updatedAt": "2026-06-16T07:08:20.738Z"
+    },
+    {
+      "id": "01KV7M50EPT7DB0NTDCCMMJVP8",
+      "name": "Mevsim Salata",
+      "emoji": "🥗",
+      "servings": 2,
+      "ingredients": [
+        {
+          "name": "Marul",
+          "grams": 150,
+          "per100g": {
+            "kcal": 15,
+            "protein": 1.4,
+            "carb": 2.9,
+            "fat": 0.2
+          }
+        },
+        {
+          "name": "Domates",
+          "grams": 150,
+          "per100g": {
+            "kcal": 18,
+            "protein": 0.9,
+            "carb": 3.9,
+            "fat": 0.2
+          }
+        },
+        {
+          "name": "Salatalık",
+          "grams": 100,
+          "per100g": {
+            "kcal": 15,
+            "protein": 0.7,
+            "carb": 3.6,
+            "fat": 0.1
+          }
+        },
+        {
+          "name": "Zeytinyağı",
+          "grams": 15,
+          "per100g": {
+            "kcal": 884,
+            "protein": 0,
+            "carb": 0,
+            "fat": 100
+          }
+        }
+      ],
+      "updatedAt": "2026-06-16T07:08:22.870Z"
     }
   ]
 }
