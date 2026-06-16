@@ -645,6 +645,55 @@
         }
       ],
       "updatedAt": "2026-06-16T07:08:22.870Z"
+    },
+    {
+      "id": "01KV7M547DMYFKWMTF9XQREMA9",
+      "name": "Kısır",
+      "emoji": "🥗",
+      "servings": 4,
+      "ingredients": [
+        {
+          "name": "Bulgur",
+          "grams": 250,
+          "per100g": {
+            "kcal": 342,
+            "protein": 12,
+            "carb": 76,
+            "fat": 1.3
+          }
+        },
+        {
+          "name": "Salça",
+          "grams": 30,
+          "per100g": {
+            "kcal": 82,
+            "protein": 4.3,
+            "carb": 19,
+            "fat": 0.5
+          }
+        },
+        {
+          "name": "Domates",
+          "grams": 100,
+          "per100g": {
+            "kcal": 18,
+            "protein": 0.9,
+            "carb": 3.9,
+            "fat": 0.2
+          }
+        },
+        {
+          "name": "Maydanoz",
+          "grams": 50,
+          "per100g": {
+            "kcal": 36,
+            "protein": 3,
+            "carb": 6,
+            "fat": 0.8
+          }
+        }
+      ],
+      "updatedAt": "2026-06-16T07:08:26.733Z"
     }
   ]
 }
