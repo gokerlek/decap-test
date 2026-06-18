@@ -7,7 +7,8 @@
       "meal": "breakfast",
       "recipeId": "01KTQB27ZNC3S1VAW52PV8RD40",
       "name": "Mercimek Çorbası",
-      "emoji": "🥣"
+      "emoji": "🥣",
+      "scaledServings": 1
     },
     {
       "id": "01KTV08H9G3SVZ6KBRFNVM5A4Q",
@@ -15,7 +16,8 @@
       "meal": "breakfast",
       "recipeId": "01KTV05KEG7Z576M4X3YS8XDM3",
       "name": "Menemen",
-      "emoji": "🍳"
+      "emoji": "🍳",
+      "scaledServings": 1
     },
     {
       "id": "01KTV08H9GK2S0TX9RH0572RCK",
@@ -23,7 +25,8 @@
       "meal": "dinner",
       "recipeId": "01KTQB27ZNC3S1VAW52PV8RD40",
       "name": "Mercimek Çorbası",
-      "emoji": "🥣"
+      "emoji": "🥣",
+      "scaledServings": 1
     },
     {
       "id": "01KTV08H9G0JB83D2DY3ACKWQK",
@@ -31,7 +34,8 @@
       "meal": "breakfast",
       "recipeId": "01KTV05TAV6H0MDFSA109HA7WZ",
       "name": "Sebzeli Omlet",
-      "emoji": "🍳"
+      "emoji": "🍳",
+      "scaledServings": 1
     },
     {
       "id": "01KTV08H9GPFS056K38Z6VX54M",
@@ -39,7 +43,8 @@
       "meal": "dinner",
       "recipeId": "01KTV04ZKX78F1JY0QVBSGYFJ2",
       "name": "Tavuk Çorbası",
-      "emoji": "🍲"
+      "emoji": "🍲",
+      "scaledServings": 1
     },
     {
       "id": "01KTV08H9GVXXQFDWE5XZ82EXA",
@@ -50,7 +55,8 @@
       "emoji": "🍳",
       "eatenBy": [
         "goker"
-      ]
+      ],
+      "scaledServings": 1
     },
     {
       "id": "01KTV08H9GG00E53BDBMYM967T",
@@ -58,7 +64,8 @@
       "meal": "dinner",
       "recipeId": "01KTQB27ZNC3S1VAW52PV8RD40",
       "name": "Mercimek Çorbası",
-      "emoji": "🥣"
+      "emoji": "🥣",
+      "scaledServings": 1
     },
     {
       "id": "01KTV08H9GWJR5PCN9CJHMZM41",
@@ -69,7 +76,8 @@
       "emoji": "🍳",
       "eatenBy": [
         "goker"
-      ]
+      ],
+      "scaledServings": 1
     },
     {
       "id": "01KTV08H9G4G3JZMFBWM65DFSE",
@@ -80,7 +88,8 @@
       "emoji": "🍲",
       "eatenBy": [
         "goker"
-      ]
+      ],
+      "scaledServings": 1
     },
     {
       "id": "01KTYZPBQ4ZB911RBVF0AG49T5",
@@ -91,7 +100,8 @@
       "emoji": "🍲",
       "eatenBy": [
         "goker"
-      ]
+      ],
+      "scaledServings": 1
     },
     {
       "id": "01KTYZPH20WXAACA9MH1SM92F6",
@@ -99,7 +109,8 @@
       "meal": "snack",
       "recipeId": "01KTQB27ZNC3S1VAW52PV8RD40",
       "name": "Mercimek Çorbası",
-      "emoji": "🥣"
+      "emoji": "🥣",
+      "scaledServings": 1
     },
     {
       "id": "01KTYZSF7V58SGB0E97BWBVS32",
@@ -107,7 +118,8 @@
       "meal": "snack",
       "recipeId": "01KTV05TAV6H0MDFSA109HA7WZ",
       "name": "Sebzeli Omlet",
-      "emoji": "🍳"
+      "emoji": "🍳",
+      "scaledServings": 1
     },
     {
       "id": "01KTYZVJ48HJZZQTR7BXMJ3CX5",
@@ -115,7 +127,8 @@
       "meal": "breakfast",
       "recipeId": "01KTV04ZKX78F1JY0QVBSGYFJ2",
       "name": "Tavuk Çorbası",
-      "emoji": "🍲"
+      "emoji": "🍲",
+      "scaledServings": 1
     },
     {
       "id": "01KTZVV1ZFP9K13QSVR4PGT0RD",
@@ -123,7 +136,8 @@
       "meal": "breakfast",
       "recipeId": "01KTV04ZKX78F1JY0QVBSGYFJ2",
       "name": "Tavuk Çorbası",
-      "emoji": "🍲"
+      "emoji": "🍲",
+      "scaledServings": 1
     },
     {
       "id": "01KTZVVCAJ8XQQ7MZ6Z0NEC5TR",
@@ -131,7 +145,8 @@
       "meal": "dinner",
       "recipeId": "01KTV05TAV6H0MDFSA109HA7WZ",
       "name": "Sebzeli Omlet",
-      "emoji": "🍳"
+      "emoji": "🍳",
+      "scaledServings": 1
     },
     {
       "id": "01KV2ZTYR04AZ1RJTTFHWFFWBQ",
@@ -142,7 +157,278 @@
       "emoji": "🍅",
       "eatenBy": [
         "goker"
-      ]
+      ],
+      "scaledServings": 1
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689SKQRW3FZN1Q2Q84J0",
+      "date": "2026-06-18",
+      "meal": "breakfast",
+      "recipeId": "01KTV05TAV6H0MDFSA109HA7WZ",
+      "name": "Sebzeli Omlet",
+      "emoji": "🍳"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689SHQQ16MXYSDS5YQ4Z",
+      "date": "2026-06-18",
+      "meal": "snack",
+      "recipeId": "01KV7M4VSK6F9G1RFBDYKBX2C2",
+      "name": "Roka Salatası",
+      "emoji": "🥗"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689TDHQBVEP1PECBCFB1",
+      "date": "2026-06-19",
+      "meal": "breakfast",
+      "recipeId": "01KV7M41S7SQ0V95MA3W6X0F5F",
+      "name": "Peynirli Omlet",
+      "emoji": "🍳"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689TSQS770XKC2JCH52Z",
+      "date": "2026-06-19",
+      "meal": "snack",
+      "recipeId": "01KV7M50EPT7DB0NTDCCMMJVP8",
+      "name": "Mevsim Salata",
+      "emoji": "🥗"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689TXVQRYZCKPDFER5ZS",
+      "date": "2026-06-20",
+      "meal": "breakfast",
+      "recipeId": "01KV7M47KQBND0R514B0VNFV77",
+      "name": "Mantarlı Yumurta",
+      "emoji": "🍄"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689TCWQYXX4T7DAHFX17",
+      "date": "2026-06-20",
+      "meal": "snack",
+      "recipeId": "01KV7M4C8P45343D0WXY6HN2XK",
+      "name": "Kaymaklı Bal",
+      "emoji": "🍯"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689TS5H8STTHW7NS8856",
+      "date": "2026-06-21",
+      "meal": "breakfast",
+      "recipeId": "01KTV05KEG7Z576M4X3YS8XDM3",
+      "name": "Menemen",
+      "emoji": "🍳"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689TQFCK6SRNR6JKKC6Y",
+      "date": "2026-06-21",
+      "meal": "snack",
+      "recipeId": "01KV7M4VSK6F9G1RFBDYKBX2C2",
+      "name": "Roka Salatası",
+      "emoji": "🥗"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689TP23QP509M16FZNY2",
+      "date": "2026-06-18",
+      "meal": "dinner",
+      "recipeId": "01KV7M4M92K0EMRKA3Q0HEDWHK",
+      "name": "Peynirli Gözleme",
+      "emoji": "🫓"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689TP94A8D33MP2ZH1N8",
+      "date": "2026-06-18",
+      "meal": "breakfast",
+      "recipeId": "01KV7M3XVPDPAKMMT5875JA4VJ",
+      "name": "Sucuklu Yumurta",
+      "emoji": "🍳"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689TB2C2JY3G030XTXS4",
+      "date": "2026-06-18",
+      "meal": "snack",
+      "recipeId": "01KTV05KEG7Z576M4X3YS8XDM3",
+      "name": "Menemen",
+      "emoji": "🍳"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689T9ENJGDHA8G9TPYMW",
+      "date": "2026-06-18",
+      "meal": "dinner",
+      "recipeId": "01KV7M4C8P45343D0WXY6HN2XK",
+      "name": "Kaymaklı Bal",
+      "emoji": "🍯"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689T1YYA3APJR5N7VM59",
+      "date": "2026-06-18",
+      "meal": "breakfast",
+      "recipeId": "01KV7M47KQBND0R514B0VNFV77",
+      "name": "Mantarlı Yumurta",
+      "emoji": "🍄"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689T74ZPA1Y6SJRMS3WF",
+      "date": "2026-06-19",
+      "meal": "dinner",
+      "recipeId": "01KV7M4M92K0EMRKA3Q0HEDWHK",
+      "name": "Peynirli Gözleme",
+      "emoji": "🫓"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689TQYMXVQQ7C6ZGVWM4",
+      "date": "2026-06-19",
+      "meal": "breakfast",
+      "recipeId": "01KV7M3XVPDPAKMMT5875JA4VJ",
+      "name": "Sucuklu Yumurta",
+      "emoji": "🍳"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689TBZ1388ATSFVJE8HW",
+      "date": "2026-06-19",
+      "meal": "snack",
+      "recipeId": "01KV2R92TXG122GW104RDN9DZG",
+      "name": "Ezogelin Çorbası",
+      "emoji": "🥣"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689T7F3Q3QVTF04VR9RY",
+      "date": "2026-06-19",
+      "meal": "dinner",
+      "recipeId": "01KV7M547DMYFKWMTF9XQREMA9",
+      "name": "Kısır",
+      "emoji": "🥗"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689TJ175PJGN2WMT440P",
+      "date": "2026-06-19",
+      "meal": "breakfast",
+      "recipeId": "01KTQB27ZNC3S1VAW52PV8RD40",
+      "name": "Mercimek Çorbası",
+      "emoji": "🥣"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689TRBJG9Q3MQ25ZWM4H",
+      "date": "2026-06-20",
+      "meal": "dinner",
+      "recipeId": "01KV2R92TXG122GW104RDN9DZG",
+      "name": "Ezogelin Çorbası",
+      "emoji": "🥣"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689TN6VYZJRXFMNMHVTN",
+      "date": "2026-06-20",
+      "meal": "breakfast",
+      "recipeId": "01KV7M41S7SQ0V95MA3W6X0F5F",
+      "name": "Peynirli Omlet",
+      "emoji": "🍳"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689V1NNJA9YAXV3JY09B",
+      "date": "2026-06-20",
+      "meal": "snack",
+      "recipeId": "01KV7M547DMYFKWMTF9XQREMA9",
+      "name": "Kısır",
+      "emoji": "🥗"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689VDDB4JPN1RGJMF8VB",
+      "date": "2026-06-20",
+      "meal": "dinner",
+      "recipeId": "01KTQB27ZNC3S1VAW52PV8RD40",
+      "name": "Mercimek Çorbası",
+      "emoji": "🥣"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689VB94VNNH2HYQPNEJ3",
+      "date": "2026-06-20",
+      "meal": "breakfast",
+      "recipeId": "01KTV05TAV6H0MDFSA109HA7WZ",
+      "name": "Sebzeli Omlet",
+      "emoji": "🍳"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689V10DJ6CD698BC8T6W",
+      "date": "2026-06-20",
+      "meal": "dinner",
+      "recipeId": "01KTV04ZKX78F1JY0QVBSGYFJ2",
+      "name": "Tavuk Çorbası",
+      "emoji": "🍲"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689VE5ZZY60WJRC4RCR2",
+      "date": "2026-06-21",
+      "meal": "dinner",
+      "recipeId": "01KTV04ZKX78F1JY0QVBSGYFJ2",
+      "name": "Tavuk Çorbası",
+      "emoji": "🍲"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689VNHKX29W6DKM6QQC0",
+      "date": "2026-06-21",
+      "meal": "breakfast",
+      "recipeId": "01KV7M57JQB44VHFB4TX7RXFGR",
+      "name": "Patates Salatası",
+      "emoji": "🥔"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689VP06HN7XP5Q7W53DZ",
+      "date": "2026-06-21",
+      "meal": "snack",
+      "recipeId": "01KV2R9972XCYD6QKGVFR0HFT3",
+      "name": "Yayla Çorbası",
+      "emoji": "🥣"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689VPR8FT0EGC3WPXCEZ",
+      "date": "2026-06-21",
+      "meal": "dinner",
+      "recipeId": "01KV7M4YC2Z599RZ7Q5052EB2Z",
+      "name": "Çoban Salata",
+      "emoji": "🥗"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689VGQ2NMB7522GKKW9B",
+      "date": "2026-06-21",
+      "meal": "breakfast",
+      "recipeId": "01KV7M50EPT7DB0NTDCCMMJVP8",
+      "name": "Mevsim Salata",
+      "emoji": "🥗"
+    },
+    {
+      "scaledServings": 1,
+      "id": "01KVDR689V1S3FX2D9ANJ5D9DB",
+      "date": "2026-06-21",
+      "meal": "dinner",
+      "recipeId": "01KV2R9CYW792ECS137ES62TA3",
+      "name": "Domates Çorbası",
+      "emoji": "🍅"
     }
   ]
 }
