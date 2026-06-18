@@ -13,7 +13,8 @@
         "kcal": 321,
         "protein": 21,
         "carb": 2.2,
-        "fat": 25
+        "fat": 25,
+        "fiber": 0
       },
       "status": "ok",
       "source": "meal",
@@ -32,7 +33,8 @@
         "kcal": 41,
         "protein": 0.9,
         "carb": 10,
-        "fat": 0.2
+        "fat": 0.2,
+        "fiber": 0
       },
       "status": "ok",
       "source": "meal",
@@ -50,7 +52,8 @@
         "kcal": 265,
         "protein": 9,
         "carb": 49,
-        "fat": 3.2
+        "fat": 3.2,
+        "fiber": 0
       },
       "status": "ok",
       "source": "manual",
@@ -61,17 +64,18 @@
       "name": "Domates",
       "emoji": "🍅",
       "category": "Sebze",
-      "quantity": 1,
+      "quantity": 0.94,
       "unit": "kg",
       "per100g": {
         "kcal": 18,
         "protein": 0.9,
         "carb": 3.9,
-        "fat": 0.2
+        "fat": 0.2,
+        "fiber": 0
       },
       "status": "ok",
       "source": "manual",
-      "updatedAt": "2026-06-16T06:44:58.903Z"
+      "updatedAt": "2026-06-18T16:14:41.987Z"
     },
     {
       "id": "01KV7JTCJ07494Q8CFG314AACF",
@@ -84,7 +88,8 @@
         "kcal": 15,
         "protein": 0.7,
         "carb": 3.6,
-        "fat": 0.1
+        "fat": 0.1,
+        "fiber": 0
       },
       "status": "ok",
       "source": "manual",
@@ -101,7 +106,8 @@
         "kcal": 280,
         "protein": 18,
         "carb": 2,
-        "fat": 22
+        "fat": 22,
+        "fiber": 0
       },
       "status": "ok",
       "source": "manual",
@@ -118,7 +124,8 @@
         "kcal": 264,
         "protein": 17,
         "carb": 2,
-        "fat": 21
+        "fat": 21,
+        "fiber": 0
       },
       "status": "ok",
       "source": "manual",
@@ -135,7 +142,8 @@
         "kcal": 300,
         "protein": 24,
         "carb": 2,
-        "fat": 22
+        "fat": 22,
+        "fiber": 0
       },
       "status": "ok",
       "source": "manual",
