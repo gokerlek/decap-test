@@ -1,0 +1,97 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-06-18",
+  "targetsSnapshot": {
+    "kcal": 2000,
+    "protein": 120,
+    "carb": 200,
+    "fat": 65
+  },
+  "entries": [
+    {
+      "id": "01KVDR6VWA0PH16CSSESTR3AJS",
+      "time": "19:14",
+      "meal": "dinner",
+      "name": "Sebzeli Omlet",
+      "grams": 230,
+      "source": "ai-text",
+      "nutrition": {
+        "kcal": 173.8,
+        "protein": 14.229999999999999,
+        "carb": 8.07,
+        "fat": 9.729999999999999,
+        "fiber": 0
+      },
+      "ingredients": [
+        {
+          "name": "Yumurta",
+          "grams": 100,
+          "per100g": {
+            "kcal": 143,
+            "protein": 13,
+            "carb": 1.1,
+            "fat": 9.5,
+            "fiber": 0
+          }
+        },
+        {
+          "name": "Biber",
+          "grams": 40,
+          "per100g": {
+            "kcal": 20,
+            "protein": 0.9,
+            "carb": 4.6,
+            "fat": 0.2,
+            "fiber": 0
+          }
+        },
+        {
+          "name": "Domates",
+          "grams": 60,
+          "per100g": {
+            "kcal": 18,
+            "protein": 0.9,
+            "carb": 3.9,
+            "fat": 0.2,
+            "fiber": 0
+          }
+        },
+        {
+          "name": "Soğan",
+          "grams": 30,
+          "per100g": {
+            "kcal": 40,
+            "protein": 1.1,
+            "carb": 9.3,
+            "fat": 0.1,
+            "fiber": 0
+          }
+        }
+      ],
+      "aiNote": "Tarif: Sebzeli Omlet (1 porsiyon)",
+      "image": {
+        "type": "emoji",
+        "value": "🍽️"
+      },
+      "pantryOps": [
+        {
+          "itemId": "01KV7JT5CQRP3XJHJ52WT3ZPRG",
+          "name": "Domates",
+          "unit": "kg",
+          "delta": -0.06,
+          "per100g": {
+            "kcal": 18,
+            "protein": 0.9,
+            "carb": 3.9,
+            "fat": 0.2,
+            "fiber": 0
+          }
+        }
+      ]
+    }
+  ],
+  "water": {
+    "ml": 0,
+    "goalMl": 2500
+  }
+}
