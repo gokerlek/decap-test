@@ -6,33 +6,54 @@
       "protein": 41.14000000000001,
       "carb": 73.55,
       "fat": 35.93,
+      "fiber": 0,
       "count": 1,
       "targetKcal": 2000,
       "targetProtein": 120,
       "waterMl": 0,
-      "waterGoalMl": 2500
+      "waterGoalMl": 2500,
+      "byMeal": {}
     },
     "2026-06-13": {
       "kcal": 962,
       "protein": 86.54,
       "carb": 74.85,
       "fat": 33.31999999999999,
+      "fiber": 0,
       "count": 2,
       "targetKcal": 2000,
       "targetProtein": 120,
       "waterMl": 0,
-      "waterGoalMl": 2500
+      "waterGoalMl": 2500,
+      "byMeal": {}
     },
     "2026-06-14": {
       "kcal": 753.45,
       "protein": 66.025,
       "carb": 58.544999999999995,
       "fat": 27.994999999999997,
+      "fiber": 0,
       "count": 5,
       "targetKcal": 2000,
       "targetProtein": 120,
       "waterMl": 0,
-      "waterGoalMl": 2500
+      "waterGoalMl": 2500,
+      "byMeal": {}
+    },
+    "2026-06-18": {
+      "kcal": 173.8,
+      "protein": 14.229999999999999,
+      "carb": 8.07,
+      "fat": 9.729999999999999,
+      "fiber": 0,
+      "count": 1,
+      "targetKcal": 2000,
+      "targetProtein": 120,
+      "waterMl": 0,
+      "waterGoalMl": 2500,
+      "byMeal": {
+        "dinner": 173.8
+      }
     }
   }
 }
